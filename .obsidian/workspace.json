@@ -4,34 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d99688ded42c6497",
+        "id": "e0094840594e2206",
         "type": "tabs",
         "children": [
           {
-            "id": "9cb1be492abc26c2",
+            "id": "dd2cdde8619d2074",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "c26f816d6af7db77",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/app.json",
-                "staged": false
+                "file": "40. Machine Learning/Reinforcement Learning/Categorical Policies.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (app.json)"
+              "icon": "lucide-file",
+              "title": "Categorical Policies"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 410.5
   },
   "right": {
     "id": "ca78e5327df65864",
@@ -194,10 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c26f816d6af7db77",
+  "active": "b0459910a0eb7a3c",
   "lastOpenFiles": [
-    "Diagonal Gaussian Policies.md",
-    "Categorical Policies.md",
+    "40. Machine Learning/Reinforcement Learning/Diagonal Gaussian Policies.md",
+    "40. Machine Learning/Reinforcement Learning/Categorical Policies.md",
     "40. Machine Learning/Reinforcement Learning/Key Concepts in Reinforcement Learning.md",
     "40. Machine Learning/Reinforcement Learning/Key Concepts in Reinforcement Learning-20241217134517518.png",
     "50. Robotics/Kalman Filters.md",
