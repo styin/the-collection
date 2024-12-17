@@ -89,15 +89,6 @@
       "key": "H"
     }
   ],
-  "highlightr-plugin:unhighlight": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "-"
-    }
-  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -105,6 +96,15 @@
         "Shift"
       ],
       "key": "L"
+    }
+  ],
+  "highlightr-plugin:unhighlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
     }
   ]
 }

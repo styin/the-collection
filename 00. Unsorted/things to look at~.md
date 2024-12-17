@@ -1,4 +1,4 @@
-Kaiman Filters
+Kalman Filters
 - in conjunction with Neural Networks
 - MPCs
 - Extended Kaiman Filters
