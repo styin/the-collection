@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e0094840594e2206",
+        "id": "07718d4448f0aef4",
         "type": "tabs",
         "children": [
           {
-            "id": "dd2cdde8619d2074",
+            "id": "e6da00f374dcb1d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40. Machine Learning/Reinforcement Learning/Categorical Policies.md",
+                "file": "10. Computer Science/Data Structures/Static Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Categorical Policies"
+              "title": "Static Arrays"
+            }
+          },
+          {
+            "id": "381b28678ef8583f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. Computer Science/Data Structures/Static Arrays.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Static Arrays"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 240.5
   },
   "right": {
     "id": "ca78e5327df65864",
@@ -88,22 +104,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ee810b611fa0525",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "f3a0dbbede5fd78a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "50. Robotics/Kalman Filters.md",
+                "file": "10. Computer Science/Data Structures/Static Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kalman Filters"
+              "title": "Backlinks for Static Arrays"
             }
           },
           {
@@ -122,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "50. Robotics/Kalman Filters.md",
+                "file": "70. DevOps/AWS/AWS Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kalman Filters"
+              "title": "Outgoing links from AWS Glossary"
             }
           },
           {
@@ -161,19 +167,19 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,15 +189,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0459910a0eb7a3c",
+  "active": "381b28678ef8583f",
   "lastOpenFiles": [
+    "10. Computer Science/Data Structures/Dynamic Arrays.md",
+    "10. Computer Science/Data Structures/Static Arrays.md",
+    "00. Unsorted/Robotics Physics Simulation.md",
+    "10. Computer Science/Data Structures",
+    "00. Unsorted/things to look at~.md",
+    "50. Robotics/Kalman Filters.md",
+    "70. DevOps/AWS/AWS Glossary.md",
+    "70. DevOps/AWS/Services Collection/AWS Glue.md",
+    "40. Machine Learning/Reinforcement Learning/Deep Reinforcement Learning/Untitled.md",
+    "40. Machine Learning/Reinforcement Learning/Deep Reinforcement Learning",
+    "70. DevOps/AWS/Concepts/AWS Well-Architected Framework.md",
+    "40. Machine Learning/Reinforcement Learning/Key Concepts in Reinforcement Learning.md",
+    "40. Machine Learning/Reinforcement Learning/Diagonal Gaussian Policies-20241220194410700.png",
     "40. Machine Learning/Reinforcement Learning/Diagonal Gaussian Policies.md",
     "40. Machine Learning/Reinforcement Learning/Categorical Policies.md",
-    "40. Machine Learning/Reinforcement Learning/Key Concepts in Reinforcement Learning.md",
+    "40. Machine Learning/Reinforcement Learning/Untitled.canvas",
+    "40. Machine Learning/Reinforcement Learning/Diagonal Gaussian Policies-20241220185100885.png",
     "40. Machine Learning/Reinforcement Learning/Key Concepts in Reinforcement Learning-20241217134517518.png",
-    "50. Robotics/Kalman Filters.md",
-    "00. Unsorted/Robotics Physics Simulation.md",
-    "00. Unsorted/things to look at~.md",
     "40. Machine Learning/Reinforcement Learning",
     "40. Machine Learning",
     "新建 文本文档.txt",
@@ -204,19 +221,13 @@
     "70. DevOps/AWS/Container Registry.md",
     "70. DevOps/AWS/Cloud Deployment Types.md",
     "70. DevOps/AWS/CLF-C02 Mindmap.canvas",
-    "70. DevOps/AWS/AWS Glossary.md",
     "70. DevOps/AWS/Services Collection/AWS Wavelength.md",
     "70. DevOps/AWS/Services Collection/AWS WAF.md",
     "70. DevOps/AWS/Services Collection/AWS Step Functions.md",
     "70. DevOps/AWS/Services Collection/AWS Shield.md",
     "70. DevOps/AWS/Services Collection/AWS Managed Services (AMS).md",
-    "70. DevOps/AWS/Services Collection/AWS Glue.md",
     "70. DevOps/AWS/Services Collection/AWS EC2 - Elastic Compute Cloud.md",
     "70. DevOps/AWS/Services Collection/AWS Container Services.md",
-    "70. DevOps/AWS/Services Collection/AWS Data Exchange.md",
-    "70. DevOps/AWS/Services Collection/AWS Cloud Adoption Framework (AWS CAF).md",
-    "70. DevOps/AWS/Services Collection/AWS Batch.md",
-    "70. DevOps/AWS/Services Collection/AWS AppConfig.md",
     "00. Unsorted",
     "99. Miscellaneous",
     "50. Robotics",

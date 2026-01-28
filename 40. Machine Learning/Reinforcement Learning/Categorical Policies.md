@@ -1,4 +1,4 @@
-#rl 
+	#rl 
 
 > [!warning]  Disclaimer
 > Contents of this file are references from the nicely curated resource by OpenAI: Spinning Up in Deep RL https://spinningup.openai.com/en/latest/user/introduction.html
@@ -15,6 +15,16 @@
 
 ###### (1) Sampling the Actions from the Policy
 Given the probabilities for each action, frameworks like PyTorch and TensorFlow have built-in tools for sampling. For example: [Categorical distributions in PyTorch](https://pytorch.org/docs/stable/distributions.html#categorical), [torch.multinomial](https://pytorch.org/docs/stable/torch.html#torch.multinomial), [tf.distributions.Categorical](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/distributions/Categorical), or [tf.multinomial](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/random/multinomial).
+
+For our sampling "strategy", we randomly sample from our action space using our computed log likelihoods as weights.
+
+```
+# 1. Policy network outputs logits logits = policy_network(state) 
+# e.g. [-0.5, 0.2, 1.0] 
+
+# 2. Convert to probabilities using softmax 
+probs = torch.softmax(logits, dim=0) # e.g. [0.15, 0.30, 0.55] # 3. Sample one action based on these probabilities # Using numpy: action = np.random.choice(num_actions, p=probs.detach().numpy()) # OR using torch: action = torch.multinomial(probs, num_samples=1) # OR using torch.distributions (preferred for better gradients): dist = Categorical(probs) action = dist.sample()
+```
 
 ###### (2) Log-Likelihood
 Denote the last layer of probabilities as: $$P_\theta(s)$$It is a vector with however many entries as there are actions, so we can treat the actions as indices for the vector. The $log$ likelihood for an action $a$ can then be obtained by indexing into the vector:
