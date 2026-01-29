@@ -27,7 +27,13 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
+<<<<<<< HEAD
+  "webviewer": false,
+  "footnotes": false,
+  "bases": true
+=======
   "footnotes": false,
   "bases": true,
   "webviewer": false
+>>>>>>> 8e2a6a8 (handler-one-ubuntu)
 }
